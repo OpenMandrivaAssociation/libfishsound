@@ -13,6 +13,7 @@ Source0:	http://www.annodex.net/software/libfishsound/download/%{name}-%{version
 License:	BSD
 Group:		System/Libraries
 URL:		http://www.annodex.net/software/libfishsound
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	oggvorbis-devel speex-devel
 
 %description
