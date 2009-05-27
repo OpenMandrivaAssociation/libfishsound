@@ -1,5 +1,5 @@
 %define	name	libfishsound
-%define	version	0.9.1
+%define	version	0.9.2
 %define	release	1
 
 %define	major	1
