@@ -1,6 +1,6 @@
 %define	name	libfishsound
 %define	version	1.0.0
-%define	release	1
+%define	release	2
 
 %define	major	1
 %define	libname	%mklibname fishsound %{major}
