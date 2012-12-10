@@ -96,3 +96,36 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/pkgconfig/*.pc
 %{_includedir}/*
 
+
+
+%changelog
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-2mdv2011.0
++ Revision: 609745
+- rebuild
+
+* Sat Mar 27 2010 Funda Wang <fwang@mandriva.org> 1.0.0-1mdv2010.1
++ Revision: 528057
+- New version 1.0.0
+
+* Wed May 27 2009 Frederik Himpe <fhimpe@mandriva.org> 0.9.2-1mdv2010.0
++ Revision: 380252
+- update to new version 0.9.2
+
+  + Pixel <pixel@mandriva.com>
+    - do not call ldconfig in %%post/%%postun, it is now handled by filetriggers
+
+* Fri May 23 2008 Funda Wang <fwang@mandriva.org> 0.9.1-1mdv2009.0
++ Revision: 210332
+- New version 0.9.1
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 0.7.0-1mdv2008.1
++ Revision: 128578
+- kill re-definition of %%buildroot on Pixel's request
+- import libfishsound
+
+
+* Tue Oct 11 2005 Per Øyvind Karlsen <pkarlsen@mandriva.com> 0.7.0-1mdk
+- initial release
