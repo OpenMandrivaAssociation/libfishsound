@@ -13,7 +13,7 @@ Release:	%mkrel %{release}
 Source0:	http://www.annodex.net/software/libfishsound/download/%{name}-%{version}.tar.gz
 License:	BSD-like
 Group:		System/Libraries
-URL:		http://www.annodex.net/software/libfishsound
+URL:		https://www.annodex.net/software/libfishsound
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	oggvorbis-devel speex-devel
 
