@@ -15,6 +15,11 @@ License:	BSD-like
 Group:		System/Libraries
 URL:		https://www.annodex.net/software/libfishsound
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	oggvorbis-devel speex-devel
 
 %description
