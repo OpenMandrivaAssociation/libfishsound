@@ -1,6 +1,6 @@
 %define	name	libfishsound
 %define	version	1.0.0
-%define release	3
+%define release 4
 
 %define	major	1
 %define	libname	%mklibname fishsound %{major}
@@ -9,7 +9,7 @@
 Summary:	Simple programming interface that wraps Xiph.Org audio codecs
 Name:		%{name}
 Version:	%{version}
-Release:	%mkrel %{release}
+Release:	%{release}.1
 Source0:	http://www.annodex.net/software/libfishsound/download/%{name}-%{version}.tar.gz
 License:	BSD-like
 Group:		System/Libraries
